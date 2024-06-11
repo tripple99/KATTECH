@@ -1,0 +1,261 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.flex-container{
+  /* background-color: rgb(251, 251, 251); */
+  box-shadow:0 4px 6px rgba(219, 212, 212, 0.9);
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+.logo h2{
+  font-size: 23px;
+  margin: 0 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.flex-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.flex-items > .items ul{
+  display: flex;
+  list-style: none;
+  margin: 0 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.flex-items > .open{
+  align-items: center;
+}
+.items > ul li{
+  margin: 0 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.btn{
+  padding: 10px 20px;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius:10px;
+  margin:  0 10px;
+  cursor: pointer;
+}
+.close{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+  cursor: pointer;
+}
+.open{
+  font-size: 30px;
+  align-items: center;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+  cursor: pointer;
+}
+@media(max-width:700px){
+   .items{
+       width:40%;
+       height: 100vh;
+       background-color: rgb(154, 198, 237);
+       position: absolute;
+       top: 0;
+       right:0;
+       display: none;
+       z-index:10;
+       transition: 1.5s;
+       color: black;    
+   }
+   
+   .flex-items > .items ul{
+      align-items: flex-start;
+   }
+   .items ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+   }
+.items ul li{
+  margin: 10px 20px;
+  
+}
+.close{
+    display: block;
+}
+.btn{
+  margin: 7px 20px;
+  background: #000000;
+  color: #ffff;
+}
+ .row > h2{
+  display: flex;
+   flex-wrap: wrap;
+}
+}
+#hero{
+  margin:0;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background:linear-gradient(to right,#3498Db,#9B59B6); */
+  background:url("/digital-global-connection-network-technology-background/23324.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffff;
+  position: relative;
+  
+  
+  
+}
+.mantra{
+  margin: 150px auto;
+}
+.mantra h1{
+  margin-bottom: 20px;
+  font-size:2.5em;
+}
+.mantra h2{
+  margin-bottom: 20px;
+  font-size: 1.7em;
+}
+.mantra p{
+  font-size: 20px;
+}
+#founders{
+  margin:50px auto;
+  text-align: center;
+  width: 80%;
+  line-height:1.5;
+} 
+@media(max-width:700px){
+  .flex{
+     flex-direction: column; 
+  }
+  .logo{
+    display: flex;
+    
+  }
+  .open{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#founders > h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;  
+  margin-bottom: 20px;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.abdallah{
+  margin: 30px 10px;
+  background-color: rgb(14, 14, 14);
+  padding:40px 30px;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  text-align: left;
+}
+.bature{
+  margin:30px 10px;
+  background-color: rgb(0, 0, 0);
+  padding: 40px 30px;
+  color: #ffff;
+  border-radius: 10px;
+   font-size: 18px;
+   display: flex;
+  text-align: left;
+}
+.intro{
+  margin-left:30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mission h1{
+  font-size: 2em;
+
+}
+.intro p{
+   margin-bottom: 10px;
+ 
+} 
+#mission{
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/network-mesh-wire-digital-technology-background/17973908.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 30px;
+
+}
+.Vision{
+  margin-top: -30px;
+}
+#mission h1{
+  margin-bottom:15px;
+
+}
+#mission p{
+  padding:0 50px ;
+}
+.footer{
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
+}
+.footer h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5em;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin:50px auto 60px auto;
+  font-size: 23px;
+  
+
+}.col{
+  background-color: rgb(53, 53, 52);
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  color: #ffffff;
+}
+.row-flex{
+  background-color: aliceblue;
+  position: absolute;
+  width: 100vw;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.row-flex i{
+  margin: 20px 25px 10px 25px;
+  align-items: center;
+  
+}
